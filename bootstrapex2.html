@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Exercise 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <style>
+        h1{
+            margin-top: 25px;
+        }
+
+        body{
+            margin: 0px 100px 10px 100px;
+        }
+    </style>
+</head>
+<body>
+    <navbar class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <div class="inline">
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Contact</a>
+            <a class="navbar-brand" href="#">About Us</a>
+            <a class="navbar-brand" href="#">Messages<span class="badge badge-success">12</span></a>
+        </div>
+    </navbar>
+    <h1>Dashboard:</h1>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Team</th>
+            <th scope="col">All Star</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Steph</td>
+            <td>Warriors</td>
+            <td>Yes</td>
+            <td><span class="badge badge-danger">x</span></td>
+          </tr>
+          <tr>
+            <td>Lebron</td>
+            <td>Cavaliers</td>
+            <td>Yes</td>
+            <td><span class="badge badge-danger">x</span></td>
+          </tr>
+          <tr>
+            <td>Dwayne</td>
+            <td>Heat</td>
+            <td>Yes</td>
+            <td><span class="badge badge-danger">x</span></td>
+          </tr>
+          <tr>
+            <td>Kobe</td>
+            <td>Lakers</td>
+            <td>Yes<span class="badge badge-warning">Last</span></td>
+            <td><span class="badge badge-danger">x</span></td>
+          </tr>
+          <tr>
+            <td>Isaiah</td>
+            <td>Celtics</td>
+            <td>Yes<span class="badge badge-success">First</span></td>
+            <td><span class="badge badge-danger">x</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Todos:</h1>
+      <div class="alert alert-success border m-0">Feel good about bootstrap</div>
+      <div class="alert alert-info border m-0">Feel informed about bootstrap</div>
+      <div class="alert alert-warning border m-0">Feel warned about bootstrap</div>
+      <div class="alert alert-warning border m-0">Maybe i should read the docs...</div>
+      <div class="alert alert-danger border m-0">Danger zone</div>
+      <div class="alert alert-danger border m-0">I really should read the docs...</div>
+     </body>
+</html>
